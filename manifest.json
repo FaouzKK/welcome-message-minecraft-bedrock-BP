@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["Monkey D Luffy"],
+		"license": "TBD"
+	},
+	"header": {
+		"name": "Welcome on serveur",
+		"description": "make a welcome message for new user",
+		"uuid": "0743db71-da55-4979-bd4a-43c584953ad5",
+		"version": [0, 0, 1],
+		"min_engine_version": [1, 14, 0]
+	},
+	"modules": [
+		{
+			"description": "Welcome behavior pack module",
+			"version": [1, 0, 0],
+			"type": "data",
+			"uuid": "d2b9fd5e-9880-4f73-bec6-154b54b0da52"
+		},
+		{
+			"description": "Hello World client scripts module",
+			"version": [1, 0, 0],
+			"type": "script",
+			"uuid": "6d247bee-9c05-46b4-9188-e7e1c385c0cb",
+			"language": "javascript",
+            "entry" : "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+		    "module_name" : "@minecraft/server-ui",
+            "version" : "1.2.0-beta"
+		},
+        {
+            "module_name" : "@minecraft/server",
+            "version" : "1.11.0-beta"
+        }
+    ]
+}
