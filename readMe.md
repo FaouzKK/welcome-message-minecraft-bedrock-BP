@@ -13,7 +13,7 @@ Ce Behavior Pack pour Minecraft affiche un message de bienvenue personnalisé à
 ## Installation
 
 1. **Téléchargement :**
-   - Téléchargez le fichier `.mcpack` de ce Behavior Pack depuis le lien fourni.
+   - Téléchargez le fichier `.mcpack` de ce Behavior Pack depuis [release](https://github.com/FaouzKK/welcome-message-minecraft-bedrock-BP/releases).
 
 2. **Ajout au serveur :**
    - installer le `.mcpack` dans votre monde ou votre serveur
